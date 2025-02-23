@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.container {
+  padding: 20px;
+}
+
+.header {
+  background: #007bff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.header ul li a {
+  color: white;
+  text-decoration: none;
+}
